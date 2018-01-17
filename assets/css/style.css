@@ -1,0 +1,295 @@
+/* #General - Selectores
+--------------------------------------*/
+
+body {
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+   font-size: 25px;
+}
+
+h3 {
+   font-size: 18px;
+}
+
+h4, time, small {
+   margin: 0;
+   font-weight: lighter;
+   color: #1c3643;
+}
+
+h5 {
+   font-weight: 400;
+}
+
+h1, h3 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: #1c3643;
+}
+
+time {
+   font-size: 12px;
+}
+
+button {
+   color: #1c3643;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+}
+
+.caja-background{
+   background-color: #eaeaea;
+}
+
+/* #Configuración de Imágenes
+--------------------------------------*/
+ .buscador .material-icons.md-light {
+   background-color: #1c3643;
+   color: rgba(255, 255, 255, 1);
+   border-radius: 4px;
+   padding: 3px;
+}
+
+.usuario .material-icons.md-light {
+   background-color: #ccc;
+   color: rgba(255, 255, 255, 1);
+   border-radius: 50px;
+}
+
+.usuario .material-icons.md-35 {
+   font-size: 35px;
+}
+
+.logotipo img {
+   width: 150px;
+   height: 50px;
+}
+
+.logotipo {
+   margin: 0;
+}
+
+.portada {
+   background: url("../img/portada.png");
+   background-size: cover;
+   height: 500px;
+   display: flex;
+   align-items: flex-end;
+}
+
+.articulo img {
+   width: 290px;
+   height: 220px;
+}
+
+/* #Contenido - Header
+--------------------------------------*/
+.header {
+   background-color: #1c3643;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: #fff;
+}
+
+.nav ul {
+   display: flex;
+   padding: 0;
+}
+
+ul li {
+   margin-left: 11px;
+   border-left: 1.5px solid #fff;
+   padding-left: 10px;
+   display: inline-block;
+   font-weight: bold;
+}
+
+ul li span {
+   border-top: none;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+ul li span:hover {
+   border-top: 3px solid #f4cf2d;
+}
+
+ul li span a {
+   text-decoration: none;
+   color: white;
+}
+
+.nav button {
+   margin: 0 10px 0 18px;
+   padding: 7px 14px;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+   text-align: center;
+   color: #fff;
+   background-color: #ff4842;
+   border-radius: 3px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.nav button:hover {
+  background-color: #ff332c;
+}
+
+.nav button:active {
+  background-color: #f4cf2d;
+  transform: translateY(3px);
+}
+/* #ff4842 */
+/* #Contenido - buscador
+--------------------------------------*/
+.buscador {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.buscador button {
+   margin: 0px;
+   padding: 0;
+   border: 0px;
+}
+
+.buscador input, .buscador i {
+   margin: 3px 0.5px;
+}
+
+   /* #Contenido - Portada
+   --------------------------------------*/
+
+.nota {
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(255, 255, 255, 0.7);
+   margin: 0 0 90px 20px;
+   padding: 10px 20px 20px;
+   width: 500px;
+}
+
+.nota-footer{
+   border-top: 1px solid rgba(28, 54, 67, 0.2);
+   margin: 0 10px 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 12px;
+}
+
+.usuario {
+   display: flex;
+   align-items: center;
+}
+
+.usuario h4 {
+   margin: 0 0 0 10px;
+}
+
+/* #Contenido - Articulos
+--------------------------------------*/
+
+.articulos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.articulo {
+   display: flex;
+   flex-direction: column;
+   width: 290px;
+   margin: 0 30px 30px;
+}
+
+.articulo figure {
+   margin: 0;
+   width: 290px;
+   height: 220px;
+}
+
+.articulo footer {
+   display: flex;
+   justify-content: space-between;
+   border-top: 1px solid rgba(28, 54, 67, 0.2);
+   padding-top: 12px;
+}
+
+.articulo h3 {
+   text-align: left;
+   line-height: 1.7;
+}
+
+/* #Contenido - Paginado
+--------------------------------------*/
+.paginado {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.paginado button {
+   margin-left: 10px;
+   background-color: #eaeaea;
+   padding: 5px 7px;
+   border: 1px solid #ccc;
+   outline: none;
+   cursor: pointer;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 0 1px #999;
+}
+
+.paginado button:hover {
+  background-color: #ccc;
+}
+
+.paginado button:active {
+  background-color: #ccc;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
+.paginado button p {
+   margin: 0;
+   padding: 0;
+}
+
+.paginado button:nth-child(2) {
+   background-color: white;
+   border: 0;
+   box-shadow: 0 0 #999;
+}
+
+.paginado button:nth-child(5) p::after{
+   content:' ›';
+   font-size: 13px;
+   position: relative;
+   bottom: 1px;
+}
+
+.paginado button:last-child p::after{
+   content:' «';
+   position: relative;
+   bottom: 1px;
+   font-size: 11px
+}

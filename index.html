@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <title>Poke Blog</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,300,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     </head>
+     <body>
+
+       <!-- header -->
+       <header class="header">
+          <figure class="logotipo"> <!-- logotipo -->
+             <img src="assets/img/pokeblog.png" alt="Pokeblog logotipo">
+          </figure>
+          <nav class="nav"> <!-- navegador -->
+              <ul>
+                 <li>
+                    <span>Pokedex</span>
+                 </li>
+                 <li>
+                    <span>
+                       <a data-easing="linear" href="#Pokeblog">PokeBlog</a>
+                    </span>
+                 </li>
+                 <li>
+                    <span>PokeHorario</span>
+                 </li>
+                 <li>
+                    <span>PokeLive</span>
+                 </li>
+              </ul>
+              <button type="button">Inicia Sesión</button>
+          </nav>
+       </header>
+       <!-- /header -->
+
+     <div class="caja-background">
+       <!-- buscador -->
+         <form class="buscador container">
+            <input type="text" name="search" placeholder="Buscar...">
+            <button type="submit">
+               <i class="material-icons md-light">search</i>
+            </button>
+        </form>
+        <!-- /buscador -->
+
+        <!-- portada -->
+         <section class="portada container">
+            <article class="nota"> <!-- artículo/nota de portada -->
+               <h1>Consejos que te ayudarán a atraparlos a todos, con riesgo de intentarlo por toda la eternidad</h1>
+               <footer class="nota-footer">
+                  <div class="usuario">
+                     <i class="material-icons md-light md-35">account_circle</i>
+                     <h4>David Vargas Domínguez</h4>
+                  </div>
+                  <time>Enero 15 2018</time>
+               </footer>
+            </article>
+        </section>
+        <!-- /portada -->
+     </div>
+
+        <!-- articulos -->
+        <section class="articulos container" id="Pokeblog" data-scroll-id="Pokeblog">
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/pikadect.gif" alt="Pikachu detective">
+               </figure>
+               <h3> La Búsqueda del Pickachu Detective</h4>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/charizardsleeping.gif" alt="Charizard durmiendo">
+               </figure>
+               <h3>Charizard tomando una siesta</h3>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco II</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/bolba.gif" alt="Bulbasaur atacando">
+               </figure>
+               <h3>Bulbasaur ataca de nuevo!</h3>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco III</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/squirtlesquad.gif" alt="Escuadrón tortuga">
+               </figure>
+               <h3>El plan malévolo del escuadrón Squirtle</h3>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco IV</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/metapod.gif" alt="Batalla de Metapods">
+               </figure>
+               <h3>La batalla más intensa de toda la historia Pokemon</h3>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco V</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/snorlax.gif" alt="Escuadrón tortuga">
+               </figure>
+               <h3> [Insertar título medianamente creativo aquí]</h3>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco VI</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/eevee.gif" alt="Eevee">
+               </figure>
+               <h3>Un tierno eevee :)</h3>
+               <footer class="articulo-footer">
+                  <small>C</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/Pidgeot.gif" alt="Pidgeot vs Salamance">
+               </figure>
+               <h3>Una verdadera, pero no tan intensa, batalla Pokemon</h3>
+               <footer class="articulo-footer">
+                  <small>Rasputin Pacheco VII</small>
+                  <time>16 01 2018</time>
+               </footer>
+            </article>
+
+            <article class="articulo">
+               <figure>
+                  <img src="assets/img/mew.gif" alt="Mew">
+               </figure>
+               <h3>Mew observándote tranquilamente</h3>
+               <footer class="articulo-footer">
+                  <small>Shigeki Morimoto</small>
+                  <time>09 05 1990</time>
+               </footer>
+            </article>
+        </section>
+        <!-- /articulos -->
+
+        <!-- paginado -->
+        <section class="paginado container">
+           <h5>Página 1 de 16</h5>
+           <button type="button">1</button>
+           <button type="button">2</button>
+           <button type="button">3</button>
+           <button type="button">
+             <p>Siguiente</p>
+          </button>
+           <button type="button">
+             <p>Última Página</p>
+          </button>
+        </section>
+        <!-- /paginado -->
+
+        <!-- footer -->
+        <footer class="footer">
+
+        </footer>
+       <!-- /footer -->
+       <script src="assets/js/smooth-scroll.js"></script>
+       <script src="assets/js/script.js"></script>
+     </body>
+</html>
